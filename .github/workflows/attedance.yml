@@ -1,7 +1,7 @@
 name: Attendance Bot
 
 on:
-schedule:
+  schedule:
   # 09:00 WIB = 02:00 UTC (Senin–Jumat)
   - cron: "0 2 * * 1-5"
 
