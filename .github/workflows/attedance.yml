@@ -1,9 +1,9 @@
 name: Attendance Bot
 
 on:
-  schedule:
-    # 07:55 WIB = 00:55 UTC
-    - cron: "55 0 * * 1-5"
+schedule:
+  # 09:00 WIB = 02:00 UTC (Senin–Jumat)
+  - cron: "0 2 * * 1-5"
 
   workflow_dispatch:
 
